@@ -1,0 +1,43 @@
+/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmpg24ll6kx/dolfin_expression_807211a40adf62137effee4caf13ffdc.cpp:63:33: error: no matching function for call to 'log'
+          values[0] = - (10*pow(log(b/a), -1)) * log(x[0]/a) + 10;
+                                ^~~
+/Users/emmanuelflores/miniconda3/envs/fenics/include/dolfin/log/log.h:103:8: note: candidate function not viable: requires at least 2 arguments, but 1 was provided
+  void log(int debug_level, std::string msg, ...);
+       ^
+/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmpg24ll6kx/dolfin_expression_807211a40adf62137effee4caf13ffdc.cpp:63:29: error: no matching function for call to 'pow'
+          values[0] = - (10*pow(log(b/a), -1)) * log(x[0]/a) + 10;
+                            ^~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:430:15: note: candidate function not viable: cannot convert argument of incomplete type 'void' to 'double' for 1st argument
+extern double pow(double, double);
+              ^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/math.h:864:42: note: candidate function not viable: cannot convert argument of incomplete type 'void' to 'float' for 1st argument
+inline _LIBCPP_HIDE_FROM_ABI float       pow(float __x, float __y) _NOEXCEPT             {return __builtin_powf(__x, __y);}
+                                         ^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/math.h:867:30: note: candidate function not viable: cannot convert argument of incomplete type 'void' to 'double' for 1st argument
+_LIBCPP_HIDE_FROM_ABI double pow(double __x, double __y) _NOEXCEPT {
+                             ^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/math.h:871:42: note: candidate function not viable: cannot convert argument of incomplete type 'void' to 'long double' for 1st argument
+inline _LIBCPP_HIDE_FROM_ABI long double pow(long double __x, long double __y) _NOEXCEPT {return __builtin_powl(__x, __y);}
+                                         ^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/complex:1159:1: note: candidate template ignored: could not match 'complex<_Tp>' against 'void'
+pow(const complex<_Tp>& __x, const complex<_Tp>& __y)
+^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/complex:1167:1: note: candidate template ignored: could not match 'complex<_Tp>' against 'void'
+pow(const complex<_Tp>& __x, const complex<_Up>& __y)
+^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/complex:1180:1: note: candidate template ignored: could not match 'complex<_Tp>' against 'void'
+pow(const complex<_Tp>& __x, const _Up& __y)
+^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/complex:1193:1: note: candidate template ignored: could not match 'complex<_Up>' against 'int'
+pow(const _Tp& __x, const complex<_Up>& __y)
+^
+/Users/emmanuelflores/miniconda3/envs/fenics/bin/../include/c++/v1/math.h:882:1: note: candidate template ignored: requirement 'std::is_arithmetic<void>::value' was not satisfied [with _A1 = void, _A2 = int]
+pow(_A1 __x, _A2 __y) _NOEXCEPT
+^
+/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmpg24ll6kx/dolfin_expression_807211a40adf62137effee4caf13ffdc.cpp:63:50: error: no matching function for call to 'log'
+          values[0] = - (10*pow(log(b/a), -1)) * log(x[0]/a) + 10;
+                                                 ^~~
+/Users/emmanuelflores/miniconda3/envs/fenics/include/dolfin/log/log.h:103:8: note: candidate function not viable: requires at least 2 arguments, but 1 was provided
+  void log(int debug_level, std::string msg, ...);
+       ^
+3 errors generated.

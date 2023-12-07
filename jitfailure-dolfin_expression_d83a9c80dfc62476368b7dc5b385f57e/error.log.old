@@ -1,0 +1,10 @@
+/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmp4vtdxtri/dolfin_expression_d83a9c80dfc62476368b7dc5b385f57e.cpp:64:23: error: no matching function for call to 'log'
+          values[0] = log(-kappa*pow(pi, 2)*t)*sin(pi*k*x[0]);
+                      ^~~
+/Users/emmanuelflores/miniconda3/envs/fenics/include/dolfin/log/log.h:103:8: note: candidate function not viable: requires at least 2 arguments, but 1 was provided
+  void log(int debug_level, std::string msg, ...);
+       ^
+/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmp4vtdxtri/dolfin_expression_d83a9c80dfc62476368b7dc5b385f57e.cpp:64:47: error: invalid operands to binary expression ('void' and 'double')
+          values[0] = log(-kappa*pow(pi, 2)*t)*sin(pi*k*x[0]);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+2 errors generated.

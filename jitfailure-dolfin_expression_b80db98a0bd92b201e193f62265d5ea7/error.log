@@ -1,0 +1,7 @@
+/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmpdsm4hqoq/dolfin_expression_b80db98a0bd92b201e193f62265d5ea7.cpp:63:31: error: use of undeclared identifier 'Log'
+          values[0] = - (10 / Log(b /a)) * Log(x[0]/a) + 10;
+                              ^
+/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmpdsm4hqoq/dolfin_expression_b80db98a0bd92b201e193f62265d5ea7.cpp:63:44: error: use of undeclared identifier 'Log'
+          values[0] = - (10 / Log(b /a)) * Log(x[0]/a) + 10;
+                                           ^
+2 errors generated.
