@@ -1,4 +1,0 @@
-/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmpirc1xykx/dolfin_expression_4139bd442e0678e656c0cae19d7a663c.cpp:64:23: error: use of undeclared identifier 'ln'
-          values[0] = ln(-kappa*pow(pi, 2)*t)*sin(pi*k*x[0]);
-                      ^
-1 error generated.

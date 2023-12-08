@@ -1,4 +1,0 @@
-/var/folders/d_/kgfl6g_j6fj9v6p9j75gh8_w0000gn/T/tmp5hscbxh0/dolfin_expression_fc4d2fa657d9085cceee746ff30e09d7.cpp:64:23: error: use of undeclared identifier 'Log'
-          values[0] = Log(-kappa*pow(pi, 2)*t)*sin(pi*k*x[0]);
-                      ^
-1 error generated.
